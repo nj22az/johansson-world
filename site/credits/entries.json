@@ -1,0 +1,366 @@
+[
+  {
+    "part": "sakura",
+    "title": "Original work",
+    "note": "Johansson World's shop, island, packaging, signs, Johansson and Thuận, and the original synthesized sound set were made for Johansson World. The simulator also uses the CC0 recordings credited below. The green-tea advertisement is the owner's own artwork."
+  },
+  {
+    "title": "Retail scanner beep and drawer with receipt",
+    "licence": "CC0 1.0 Universal",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/kalisemorrison/packs/12909/",
+    "by": "kalisemorrison",
+    "note": "Barcode scanner and cash drawer/receipt field recordings. Full-length high-quality Freesound previews packed as Godot audio resources.",
+    "assets": [
+      "scanner-beep.res",
+      "drawer-receipt.res"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Empty shop room tone",
+    "licence": "CC0 1.0 Universal",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/susipekka/sounds/454993/",
+    "by": "susipekka",
+    "note": "Shop ambience from the full-length high-quality preview, with a crossfaded loop seam and EQ for small speakers.",
+    "assets": [
+      "shop-room-tone.res"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Home Fridge Hum, Perspective 01",
+    "licence": "CC0 1.0 Universal",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/HECKFRICKER/sounds/753296/",
+    "by": "HECKFRICKER",
+    "note": "Refrigerator recording from the full-length high-quality preview, with a crossfaded loop seam and EQ for small speakers.",
+    "assets": [
+      "fridge-hum.res"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Morning Coffee",
+    "licence": "CC0 1.0 Universal",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/morning-coffee/",
+    "by": "HoliznaCC0",
+    "note": "Full instrumental track, attenuated before mono encoding for the in-world cassette radio.",
+    "assets": [
+      "morning-coffee.res"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "NVIDIA SimReady Assets",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://huggingface.co/datasets/nvidia/simready-assets",
+    "by": "NVIDIA Corporation",
+    "note": "Dataset revision 4763fbfaa4f8e97658e68b57d01b4c86659e08b5. Changed for Johansson World: geometry reduced, rescaled to metres, materials repainted in the Johansson World palette, printed logos removed; the two bun-steamer trays are reshaped from kitchenware_tray_a01. No claim of NVIDIA simulation certification for these adaptations.",
+    "assets": [
+      "misc_basket_plastic_a01",
+      "box_corrugated_brown_b04",
+      "kitchenware_tray_a01",
+      "cleaning_caddy_a01",
+      "handTool_pliers_combination_a01",
+      "handTool_screwdriver_phillips_ph2_a01",
+      "stationery_pen_plastic_a01",
+      "stationery_pencil_watercolor_black_a01",
+      "misc_tape_dispenser_a01",
+      "cleaning_dishSoap_a01",
+      "cleaning_sponge_b01",
+      "food_beverage_beerBottle_a01",
+      "food_beverage_whiskyBottle_a01",
+      "food_packaged_bread_loaf_a01",
+      "kitchenware_spoon_h01"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Noto Serif CJK JP",
+    "licence": "SIL Open Font License 1.1",
+    "licence_url": "https://openfontlicense.org",
+    "source_url": "https://github.com/notofonts/noto-cjk",
+    "by": "Adobe and Google",
+    "note": "The Japanese lettering on the shop's signs, boards and labels, set in Blender (packed in Sakura-Overhaul.blend) and carried into the game as geometry and textures.",
+    "assets": [],
+    "part": "sakura"
+  },
+  {
+    "title": "Artlist images",
+    "licence": "Artlist licence held by the owner",
+    "licence_url": "https://artlist.io",
+    "source_url": "https://artlist.io",
+    "by": "Made by the owner with Artlist's image generation",
+    "note": "Two images: the print atlas for the magazine covers, newspaper and salt, tea and kokuto package fronts (Nano Banana Pro, generation 01a196bf-86d3-7e00-a736-e676c6b2dc2a), and the six handwritten price cards (Nano Banana 2, generation 01a19862-36d2-75ac-b14f-ae5b225a9575).",
+    "assets": [
+      "Johansson-Artlist-Prints.png",
+      "Sakura-Handwritten-POP-Atlas.png"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Godot Engine",
+    "licence": "MIT",
+    "licence_url": "https://godotengine.org/license",
+    "source_url": "https://godotengine.org",
+    "by": "Juan Linietsky, Ariel Manzur and the Godot Engine contributors",
+    "note": "Copyright (c) 2014-present Godot Engine contributors. Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur. The engine's full licence text and its own third-party notices follow below.",
+    "assets": [],
+    "part": "sakura"
+  },
+  {
+    "title": "M PLUS Rounded 1c",
+    "licence": "SIL Open Font License 1.1",
+    "licence_url": "https://openfontlicense.org",
+    "source_url": "https://github.com/google/fonts/tree/main/ofl/mplusrounded1c",
+    "by": "The Rounded M+ Project Authors",
+    "note": "The game's own UI lettering: menus, the shift panel, messages (DESIGN.md). Bold weight, unchanged. Licence: assets/fonts/OFL-mplusrounded1c.txt.",
+    "assets": [
+      "assets/fonts/MPLUSRounded1c-Bold.ttf"
+    ],
+    "part": "sakura"
+  },
+  {
+    "title": "Noto Sans JP",
+    "licence": "SIL Open Font License 1.1",
+    "licence_url": "https://openfontlicense.org",
+    "source_url": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+    "by": "Adobe and Google",
+    "note": "The fallback for any character the UI font lacks, and the small print. Variable weight, unchanged. Licence: assets/fonts/OFL-notosansjp.txt.",
+    "assets": [
+      "assets/fonts/NotoSansJP-Variable.ttf"
+    ],
+    "part": "sakura"
+  },
+  {
+    "part": "sakura",
+    "title": "Shippori Mincho B1",
+    "by": "The Shippori Mincho Project Authors",
+    "licence": "SIL Open Font License 1.1",
+    "licence_url": "https://openfontlicense.org",
+    "source_url": "https://github.com/fontdasu/ShipporiMincho",
+    "note": "Japanese display type on the Sakura Shōten page.",
+    "assets": [
+      "shippori-mincho-b1-extrabold.woff2"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Three.js r170",
+    "note": "MIT; full text in ../vendor/LICENSE-THREE.txt; module paths and whitespace normalised",
+    "assets": [
+      "../vendor/three.module.js, loaders, utilities and ../tools/vendor/GLTFExporter.js"
+    ],
+    "source_url": "https://github.com/mrdoob/three.js/tree/r170"
+  },
+  {
+    "part": "world",
+    "title": "AsagaoUI — Hiroshi ISOBE, following Japan's Digital Agency design system",
+    "note": "MIT; full text in ../LICENSE-ASAGAOUI.txt; design language only. The grey and blue ramps, type scale, 0.5rem spacing, 4/8/12px rounding and the yellow-on-black focus ring are ported as CSS custom properties and written against this page's own markup. None of the framework's CSS, JavaScript, icons or illustrations is included: at 105KB minified it would sit in front of the town it links to",
+    "assets": [
+      "../landing.css"
+    ],
+    "source_url": "https://github.com/ctpena/asagaoui"
+  },
+  {
+    "part": "world",
+    "title": "Virtual Joystick — Marco Fazio (MarcoFazioRandom)",
+    "note": "MIT; full text in ../LICENSE-VIRTUAL-JOYSTICK.txt; GDScript reimplemented in JavaScript against pointer events. The behaviour is kept: the fixed, dynamic and following joystick modes, the always/touchscreen/when-touched visibility modes, and the output curve that subtracts the dead zone and rescales the remainder across the clamp zone so the stick ramps from zero instead of jumping. Godot's Control nodes, input actions and texture handling are not ported; the hit area, the layout and the opening hint are this town's own",
+    "assets": [
+      "../src/input/virtual-joystick.js"
+    ],
+    "source_url": "https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot"
+  },
+  {
+    "part": "world",
+    "title": "Sakura Crossing — Kenton Wang (Kenton-GMI)",
+    "note": "MIT; full text in ../LICENSE-SAKURA-CROSSING.txt. The shading is ported: the quantised gradient ramps, the lights_toon_pars_fragment patch that hue-shifts the shadow bands toward violet, the screen-space ink read as a second difference of linearised depth, the split-tone grade and the FXAA resolve. None of its textures or world building is included; the few pieces of its geometry that are ported are listed in the next row. Two things are this town's own: the materials are converted by a pass over the scene graph rather than authored as toon from the start, because the districts here stream in and are built across fifty files; and photographic maps are mixed part-way toward flat colour, which that project never needs because it ships no image assets at all",
+    "assets": [
+      "../src/render/cel.js, ../src/render/ink-pipeline.js"
+    ],
+    "source_url": "https://github.com/Kenton-GMI/sakura-crossing"
+  },
+  {
+    "part": "world",
+    "title": "Sakura Crossing — Kenton Wang (Kenton-GMI)",
+    "note": "MIT; full text in ../LICENSE-SAKURA-CROSSING.txt. Ported and adapted: the bake-per-material batching of primitives (bake, trs), the sagging-cable curve (sagCurve) and the construction of its utility pole (makePole: crossarms, insulators, transformer cans, cable bundle) and kei truck (makeKeiTruck). They are rebuilt on this town's kit, which bakes by finish and 32 m cell with vertex colour, and use its materials and cel pass rather than cel(). Its Canvas2D sign style informed ../src/world/okinawa/signs.js, whose painters are this town's own; the Okinawan houses, walls, gardens, quays and boats are original",
+    "assets": [
+      "../src/world/okinawa/kit.js, ../src/world/okinawa/props.js"
+    ],
+    "source_url": "https://github.com/Kenton-GMI/sakura-crossing"
+  },
+  {
+    "part": "world",
+    "title": "Original to this town",
+    "note": "The Shimanchu avatars and their maker are this town's own work: the part shapes, the painted faces, the procedural body and its animation, the palettes and the maker's layout. They take no assets, code or artwork from any console character system; the maker's tabs-parts-colours-sliders layout is a common convention for character makers. They are shaded by the town's own cel pass (../src/render/cel.js, credited above)",
+    "assets": [
+      "../src/avatars/ (recipe, face, build, animate, actors, cast, creator), ../creator/"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Yorimichi — emaxsaun",
+    "note": "MIT; full text in ../LICENSE-YORIMICHI.txt; design only, no code. The counter ritual, the paper stamp card, the kept receipt and the record of what you have tried are its ideas, rebuilt in 3D against this town's own stock and ledger. Adapted to 1988: its IC card and QR payments postdate the setting, so the counter takes cash and counts change, and the bag is asked about but never charged for, as it would not have been until 2020",
+    "assets": [
+      "../src/commerce/konbini.js"
+    ],
+    "source_url": "https://github.com/emaxsaun/yorimichi"
+  },
+  {
+    "part": "world",
+    "title": "asphalt_02 — Rob Tuytel / Poly Haven",
+    "note": "CC0; 1K albedo, OpenGL normal and packed AO/roughness/metalness",
+    "assets": [
+      "asphalt.jpg, materials/asphalt-*.jpg"
+    ],
+    "source_url": "https://polyhaven.com/a/asphalt_02"
+  },
+  {
+    "part": "world",
+    "title": "weathered_planks — Dario Barresi and Dimitrios Savva / Poly Haven",
+    "note": "CC0; same three channels",
+    "assets": [
+      "timber.jpg, materials/timber-*.jpg"
+    ],
+    "source_url": "https://polyhaven.com/a/weathered_planks"
+  },
+  {
+    "part": "world",
+    "title": "roof_tiles_14 — Rob Tuytel / Poly Haven",
+    "note": "CC0; same three channels",
+    "assets": [
+      "roof.jpg, materials/roof-*.jpg"
+    ],
+    "source_url": "https://polyhaven.com/a/roof_tiles_14"
+  },
+  {
+    "part": "world",
+    "title": "plastered_stone_wall — Rob Tuytel / Poly Haven",
+    "note": "CC0; same three channels",
+    "assets": [
+      "plaster.jpg, materials/plaster-*.jpg"
+    ],
+    "source_url": "https://polyhaven.com/a/plastered_stone_wall"
+  },
+  {
+    "part": "world",
+    "title": "Quaternius Ultimate Modular Men, Ultimate Modular Women",
+    "note": "CC0; five clothed adult bases. Material palettes merged to vertex colours; six compatible clips retained; suit weapon removed. Included creator licence texts and exact provenance in characters/residents/.",
+    "assets": [
+      "characters/residents/town-*.glb"
+    ],
+    "source_url": "https://quaternius.com/packs/ultimatemodularcharacters.html"
+  },
+  {
+    "part": "world",
+    "title": "© OpenStreetMap contributors",
+    "note": "ODbL 1.0; retained source coordinates plus explicitly adapted game centrelines. The map data, including adaptations, is offered under ODbL. No Google or GSI tiles are included.",
+    "assets": [
+      "maps/tomonoura.json, maps/adapted-roads.json"
+    ],
+    "source_url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+    "part": "world",
+    "title": "Original Johansson Town signal-rendered Foley and instrumental loops",
+    "note": "Newly created project material; generator in ../tools/render-audio.py. No sampled songs, recorded broadcasts or third-party music. CC0 dedication in audio/LICENSE.txt.",
+    "assets": [
+      "audio/*.wav"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Creator and exact source",
+    "note": "Adaptation",
+    "assets": [
+      "Shipped files"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "YCbCr — Concrete Textures Seamless 1k",
+    "note": "Selected concrete2 diffuse image; 1024px JPEG; shallow runtime bump inference",
+    "assets": [
+      "materials/oga-concrete.jpg"
+    ],
+    "source_url": "https://opengameart.org/content/concrete-textures-seamless-1k"
+  },
+  {
+    "part": "world",
+    "title": "para — Ground Pavement Texture Pack",
+    "note": "Selected ground_stone_pavement_01.png; downsampled to 1024px JPEG; shallow runtime bump inference",
+    "assets": [
+      "materials/oga-paving.jpg"
+    ],
+    "source_url": "https://opengameart.org/content/ground-pavement-texture-pack"
+  },
+  {
+    "part": "world",
+    "title": "YCbCr — Bamboo Wood Seamless 1k",
+    "note": "Original colour and normal channels re-encoded as 1024px JPEG",
+    "assets": [
+      "materials/oga-bamboo.jpg, materials/oga-bamboo-normal.jpg"
+    ],
+    "source_url": "https://opengameart.org/content/bamboo-wood-seamless-1k"
+  },
+  {
+    "part": "world",
+    "title": "Supplied source and attribution",
+    "note": "Adaptation",
+    "assets": [
+      "Runtime model"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Original VRoid sample",
+    "note": "Creator licence",
+    "assets": [
+      "Packed base"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Vivi / beta AvatarSample_2",
+    "note": "CC0",
+    "assets": [
+      "vroid-bob.glb"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "HairSample_Male",
+    "note": "CC0 sample listing",
+    "assets": [
+      "vroid-casual.glb"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Sakurada Fumiriya",
+    "note": "CC0",
+    "assets": [
+      "vroid-vest.glb"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Victoria Rubin / beta AvatarSample_4",
+    "note": "CC0",
+    "assets": [
+      "vroid-ponytail.glb"
+    ]
+  },
+  {
+    "part": "world",
+    "title": "Sendagaya Shino",
+    "note": "CC0",
+    "assets": [
+      "vroid-long.glb"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+.credits-page { width: min(100% - 2rem, 62rem); margin: 2rem auto 4rem; }
+.credits-page header { margin: 2rem 0; }
+.credits-filters { display: flex; flex-wrap: wrap; gap: 1rem; }
+.credits-filters label { display: grid; flex: 1 1 14rem; gap: .35rem; font-weight: 700; }
+.credits-filters :is(input, select) { min-height: 2.75rem; width: 100%; padding: .5rem; font: inherit; }
+.credits-results { list-style: none; margin: 1rem 0 2rem; padding: 0; }
+.credits-results li { border-top: 1px solid currentColor; padding: 1rem 0; overflow-wrap: anywhere; }
+.credits-results h2 { font-size: 1.2rem; margin: .2rem 0; }
+.credits-results p { margin: .35rem 0; }
+.credits-results a + a { margin-inline-start: 1rem; }

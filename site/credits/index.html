@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Credits &amp; licences · Johansson World</title>
+  <link rel="canonical" href="https://nj22az.github.io/johansson-world/credits/">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="credits.css">
+  <script defer src="credits.js"></script>
+</head>
+<body>
+  <main class="credits-page">
+    <nav aria-label="Johansson World"><a href="../">← Johansson World</a> · <a href="../sakura/">Sakura Shōten</a></nav>
+    <header>
+      <p class="eyebrow">Johansson World</p>
+      <h1>Credits &amp; licences</h1>
+      <p>Find the people, tools and assets behind Johansson World and Sakura Shōten.</p>
+    </header>
+    <div class="credits-filters">
+      <label for="credit-search">Search credits
+        <input type="search" id="credit-search" placeholder="Name, asset or licence">
+      </label>
+      <label for="credit-part">Part of the world
+        <select id="credit-part">
+          <option value="">All credits</option>
+          <option value="world">Johansson World</option>
+          <option value="sakura">Sakura Shōten</option>
+        </select>
+      </label>
+    </div>
+    <p id="credit-status" role="status">Loading credits…</p>
+    <ul id="credit-results" class="credits-results"></ul>
+    <p><a href="https://github.com/nj22az/nj22az.github.io/blob/main/johansson-town/assets/ATTRIBUTION.md">Full Johansson World asset ledger</a> · <a href="godot-4.5.1-notices.txt">Godot engine licence and notices</a></p>
+    <noscript><p><a href="entries.json">Read the credits data</a>.</p></noscript>
+  </main>
+</body>
+</html>

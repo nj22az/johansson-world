@@ -1,0 +1,71 @@
+/* Sakura Shōten, the game's website. Colours and type follow ../DESIGN.md: harbour green on cream paper,
+   Shippori Mincho B1 for the shop's painted voice (the fascia, headings), Noto Sans JP for reading. Both OFL,
+   self-hosted and subset to this page by subset_fonts.py. */
+
+@font-face {
+  font-family: "Shippori Mincho B1";
+  src: url("fonts/shippori-mincho-b1-extrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("fonts/noto-sans-jp.woff2") format("woff2-variations"), url("fonts/noto-sans-jp.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --paper: #fff8e9;
+  --ink: #244c40;
+  --muted: #506458;
+  --line: #c7cfbc;
+  --heading: "Shippori Mincho B1", Georgia, serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "Noto Sans JP", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; text-underline-offset: .2em; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.masthead, main, footer { width: min(100% - 2rem, 76rem); margin-inline: auto; }
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem 2rem;
+  padding-block: .9rem;
+  border-bottom: 1px solid var(--line);
+}
+.wordmark { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .8rem; text-decoration: none; }
+[lang="ja"] { font-family: var(--heading); font-feature-settings: "palt", "kern"; letter-spacing: .06em; line-break: strict; }
+.wordmark [lang="ja"] { font-size: 1.2rem; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; font-size: .9rem; }
+.hero, .feature { display: grid; align-items: center; gap: clamp(1.25rem, 4vw, 4rem); }
+.hero { padding-block: clamp(2rem, 6vw, 6rem); }
+h1, h2 { margin: 0; font-family: var(--heading); line-height: 1.12; }
+h1 { font-size: clamp(2.9rem, 6.8vw, 6.25rem); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4vw, 3.4rem); }
+.eyebrow { margin: 0 0 .75rem; font-size: .875rem; color: var(--muted); letter-spacing: .085em; }
+.hero-copy > p:not(.eyebrow), .feature-copy > p:not(.eyebrow) { max-width: 34ch; margin: 1rem 0 0; }
+.visit { display: inline-block; margin-top: 1.5rem; padding: .55rem 1rem; color: var(--paper); background: var(--ink); text-decoration: none; }
+figure { min-width: 0; margin: 0; }
+figure img { display: block; width: 100%; height: auto; background: #dce0d1; }
+figcaption { color: var(--muted); font-size: .875rem; margin-top: .45rem; }
+.feature { padding-block: clamp(1.8rem, 5vw, 4.5rem); border-top: 1px solid var(--line); }
+.feature-copy { grid-row: 1; }
+footer { display: flex; gap: .65rem 1.4rem; flex-wrap: wrap; padding-block: 1.5rem 2.5rem; border-top: 1px solid var(--line); }
+@media (min-width: 780px) {
+  .hero { grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); }
+  .feature { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); }
+  .feature-copy { grid-row: auto; }
+  .reverse { grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); }
+  .reverse figure { grid-column: 2; grid-row: 1; }
+  .reverse .feature-copy { grid-column: 1; grid-row: 1; }
+}
+.toy-detail { max-width: 19rem; margin-top: 1.25rem; }
