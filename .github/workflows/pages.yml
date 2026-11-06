@@ -1,0 +1,48 @@
+name: Publish Johansson World
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Put the Sakura demo from its release into the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          tag=$(tr -d '[:space:]' < sakura-demo-release.txt)
+          mkdir -p site/sakura/play
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --dir site/sakura/play
+          cd site/sakura/play
+          sha256sum --check --strict ../../../sakura-demo.sha256
+          test "$(ls | wc -l)" -eq "$(wc -l < ../../../sakura-demo.sha256)"
+          du -sh .
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
